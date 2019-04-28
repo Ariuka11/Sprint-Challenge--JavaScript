@@ -43,6 +43,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
+    1. Window Binding is when "this" called it will refer to the window objects.
+    2. Implicit Binding is when function called, whatever before the dot notation is refered as "this".
+    3. Explicit Binding means "this" word is defined in the call, apply and bind methods. 
+    4. New Binding is when constructor function is used to create an object, we use "new" word to call it. Hence "this" word is used to refer the key words in the constructor function.
 
 
 5. Why do we need super() in an extended class?
